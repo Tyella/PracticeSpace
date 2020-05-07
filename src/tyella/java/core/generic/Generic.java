@@ -1,6 +1,8 @@
 package tyella.java.core.generic;
 
+import java.lang.reflect.Array;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 
 public class Generic<T> {
@@ -143,4 +145,29 @@ public class Generic<T> {
         System.out.println("Obj is:" + obj.toString());
     }*/
 
+    /** 泛型的上边界 */
+    public static void showKeyValue2(Generic<? extends Number> obj) {
+        System.out.println("Key value is:" + obj.getKey());
+    }
+
+    /** 泛型的下边界 */
+    public static void showKeyValue3(Generic<? super HashMap> obj){
+        System.out.println("Key value is:"+obj.getKey());
+    }
+
+    /** 泛型数组，Java中不能创建泛型数组，在编译时会擦除具体类型 */
+    public static void genericArray() {
+        /** Not really allowed. */
+        //List<String>[] ls = new ArrayList<String>[10];
+
+        /** 使用通配符创建泛型数组是可以的，因为通配符要做强制类型转换 */
+        List<?>[] ls = new ArrayList<?>[10];
+        Object ob = ls;
+        Object[] oa = (Object[]) ob;
+        List<Integer> list = new ArrayList<>();
+        list.add(new Integer(2));
+        oa[1] = list;
+        Integer ite = (Integer) ls[1].get(0);
+        System.out.println("Ite is:" + ite);
+    }
 }

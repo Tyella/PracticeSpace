@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="23c346aa-3cc8-4f6c-b2f4-112cdb5e40a2" name="Default Changelist" comment="" />
+    <list default="true" id="23c346aa-3cc8-4f6c-b2f4-112cdb5e40a2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo/test/tyella/java/core/generic/GenericTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/demo/test/tyella/java/core/generic/GenericTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo/tyella/java/core/generic/Generic.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/demo/tyella/java/core/generic/Generic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/tyella/java/core/generic/GenericTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/tyella/java/core/generic/GenericTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tyella/java/core/generic/Generic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tyella/java/core/generic/Generic.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,7 +21,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1bWsO7gjoW1jGIVbpygJDFwRNTB" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.Annotations" value="false" />
@@ -23,6 +33,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -36,7 +47,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.GenericTest">
+  <component name="RunManager" selected="JUnit.GenericTest.testGeneric11">
     <configuration name="GenericTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="demo" />
       <extension name="coverage">
@@ -52,7 +63,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GenericTest.testGeneric3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GenericTest.testGeneric10" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="demo" />
       <extension name="coverage">
         <pattern>
@@ -62,13 +73,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="test.tyella.java.core.generic" />
       <option name="MAIN_CLASS_NAME" value="test.tyella.java.core.generic.GenericTest" />
-      <option name="METHOD_NAME" value="testGeneric3" />
+      <option name="METHOD_NAME" value="testGeneric10" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GenericTest.testGeneric4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GenericTest.testGeneric11" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="demo" />
       <extension name="coverage">
         <pattern>
@@ -78,13 +89,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="test.tyella.java.core.generic" />
       <option name="MAIN_CLASS_NAME" value="test.tyella.java.core.generic.GenericTest" />
-      <option name="METHOD_NAME" value="testGeneric4" />
+      <option name="METHOD_NAME" value="testGeneric11" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GenericTest.testGeneric6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GenericTest.testGeneric8" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="demo" />
       <extension name="coverage">
         <pattern>
@@ -94,13 +105,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="test.tyella.java.core.generic" />
       <option name="MAIN_CLASS_NAME" value="test.tyella.java.core.generic.GenericTest" />
-      <option name="METHOD_NAME" value="testGeneric6" />
+      <option name="METHOD_NAME" value="testGeneric8" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GenericTest.testGeneric7" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GenericTest.testGeneric9" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="demo" />
       <extension name="coverage">
         <pattern>
@@ -110,7 +121,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="test.tyella.java.core.generic" />
       <option name="MAIN_CLASS_NAME" value="test.tyella.java.core.generic.GenericTest" />
-      <option name="METHOD_NAME" value="testGeneric7" />
+      <option name="METHOD_NAME" value="testGeneric9" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -118,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GenericTest.testGeneric11" />
+        <item itemvalue="JUnit.GenericTest.testGeneric10" />
         <item itemvalue="JUnit.GenericTest" />
-        <item itemvalue="JUnit.GenericTest.testGeneric7" />
-        <item itemvalue="JUnit.GenericTest.testGeneric6" />
-        <item itemvalue="JUnit.GenericTest.testGeneric4" />
-        <item itemvalue="JUnit.GenericTest.testGeneric3" />
+        <item itemvalue="JUnit.GenericTest.testGeneric9" />
+        <item itemvalue="JUnit.GenericTest.testGeneric8" />
       </list>
     </recent_temporary>
   </component>
@@ -136,11 +147,25 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1588759148398</updated>
-      <workItem from="1588759151182" duration="9173000" />
+      <workItem from="1588759151182" duration="10134000" />
+      <workItem from="1588849713199" duration="4143000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
