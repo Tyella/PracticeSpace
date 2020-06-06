@@ -84,6 +84,13 @@ public class TimeClientHandle implements Runnable {
                 System.exit(1);
             }
         }
+        if (selector != null) {
+            try {
+                selector.close();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
     }
 
     private void handleInput(SelectionKey key) throws IOException {

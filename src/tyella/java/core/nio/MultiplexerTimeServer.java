@@ -76,6 +76,7 @@ public class MultiplexerTimeServer implements Runnable {
 
     private void handleInput(SelectionKey key) throws IOException {
         if (key.isValid()) {
+            /** 下面的操作相当于完成了TCP的三次握手，TCP物理链路正式建立 */
             if (key.isAcceptable()) {
                 // Accept the new connection
                 ServerSocketChannel ssc = (ServerSocketChannel) key.channel();
@@ -88,6 +89,7 @@ public class MultiplexerTimeServer implements Runnable {
                 // Read the data
                 SocketChannel sc = (SocketChannel) key.channel();
                 ByteBuffer readBuffer = ByteBuffer.allocate(1024);
+                /** 已经将SocketChannel设置为异步非阻塞模式，read方法是阻塞的 */
                 int readBytes = sc.read(readBuffer);
                 if (readBytes > 0) {
                     // buffer由写切换成读
